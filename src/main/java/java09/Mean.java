@@ -2,9 +2,15 @@ package java09;
 
 import java.util.Scanner;
 
-public class TimBuCakal {
+public class Mean {
     private static Scanner scanner = new Scanner(System.in);
-    int[] myIntegers = getIntegers(5);
+
+    public static void main(String[] args) {
+        int[] myIntegers = getIntegers(5);
+        int[] sorted = sortIntegers(myIntegers,myIntegers);
+        printArray(sorted);
+
+    }
 
 
     private static int[] getIntegers(int capacity) {
@@ -16,7 +22,7 @@ public class TimBuCakal {
         return array;
     }
 
-    public static void printArry(int[] array) {
+    public static void printArray(int[] array) {
         for (int i = 0; i < array.length; i++) {
             System.out.println("element");
         }

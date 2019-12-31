@@ -1,9 +1,9 @@
 package java09;
 
 public class GroceryList {
-    private ArrayList<String> naimList = new ArrayList()<String>;
+    private ArrayList<String> groceryList = new ArrayList()<String>;
 
     public  void addNaimList(String item) {
-        naimList.(item);
+        groceryList.(item);
     }
 }
