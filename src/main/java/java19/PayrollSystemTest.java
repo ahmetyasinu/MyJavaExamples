@@ -1,6 +1,4 @@
-package java18;
-
-import java19.*;
+package java19;
 
 class PayrollSystemTest {
     public static void main(String args[]) {

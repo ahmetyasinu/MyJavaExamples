@@ -1,9 +1,9 @@
 package java19;
 
-public class BasePlusComissionEmployee extends ComissionEmployee {
+public class BasePlusCommissionEmployee extends CommissionEmployee {
     private double BaseSalary;
 
-    public BasePlusComissionEmployee(String first, String last, String ssn, double sales, double rate, double salary) {
+    public BasePlusCommissionEmployee(String first, String last, String ssn, double sales, double rate, double salary) {
         super(first, last, ssn, sales, rate);
         setBaseSalary(salary);
     }

@@ -52,16 +52,16 @@ public class Main {
     }
 
     private static void addNewContact() {
-        System.out.println("Enter new contact name: ");
-        String name = scanner.nextLine();
-        System.out.println("Enter phone number: ");
-        String phone = scanner.nextLine();
-        Contact newContact = Contact.createContact(name, phone);
-        if (mobilePhone.addNewContact(newContact)) {
-            System.out.println("New contact added: name = " + name + ", phone = " + phone);
-        } else {
-            System.out.println("Cannot add, " + name + " already on file");
-        }
+            System.out.println("Enter new contact name: ");
+            String name = scanner.nextLine();
+            System.out.println("Enter phone number: ");
+            String phone = scanner.nextLine();
+            Contact newContact = Contact.createContact(name, phone);
+            if (mobilePhone.addNewContact(newContact)) {
+                System.out.println("New contact added: name = " + name + ", phone = " + phone);
+            } else {
+                System.out.println("Cannot add, " + name + " already on file");
+            }
     }
 
     private static void updateContact() {
