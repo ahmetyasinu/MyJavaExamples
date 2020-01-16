@@ -6,8 +6,7 @@ public class test {
         int score = 800;
         int levelCompleted = 5;
         int bonus = 100;
-
-        int highScore = calculateScore(gameOver, score, levelCompleted, bonus);
+        int highScore = calculateScore(gameOver , score, levelCompleted, bonus);
         score = 10000;
         levelCompleted = 8;
         bonus = 200;
