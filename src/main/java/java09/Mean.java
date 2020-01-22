@@ -15,7 +15,7 @@ public class Mean {
 
     private static int[] getIntegers(int capacity) {
         int[] array = new int[capacity];
-        System.out.println("Enter" + capacity + "integers Value\r");
+        System.out.println("Enter " + capacity + " integers Value\r");
         for (int i = 0; i < array.length; i++) {
             array[i] = scanner.nextInt();
         }
